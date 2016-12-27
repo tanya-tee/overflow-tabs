@@ -14,7 +14,7 @@
     "Tatyana Elavsky"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/tanya-tee/overflow-tabs",
   "ignore": [
     "**/.*",
     "node_modules",
