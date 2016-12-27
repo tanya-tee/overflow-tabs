@@ -1,0 +1,25 @@
+{
+  "name": "overflowTabs",
+  "description": "Excel like UL -> LI Tabs for large number of items (tabs)",
+  "main": "overflowTabs.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "tabs",
+    "overflow",
+    "jquery"
+  ],
+  "authors": [
+    "Tatyana Elavsky"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
