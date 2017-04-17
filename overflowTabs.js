@@ -152,7 +152,7 @@ var overflowTabs = {
 			alert("Invalid margin setting. Please format it like [x, x, x, x] with 4 values for top, right, bottom, and left in pixels.");
 		}
 
-		if (o.tabs[0].scrollWidth <= o.container.outerWidth(true)) { // all tabs fit within the container
+		if (o.tabs[0].scrollWidth <= o.container.outerWidth()) { // all tabs fit within the container
 			o.nav.hide();
 			o.navOffset = 0;
 			o.container.css("margin", o.margin[0] + "px " + o.margin[1] + "px " + o.margin[2] + "px " + o.margin[3] + "px");
